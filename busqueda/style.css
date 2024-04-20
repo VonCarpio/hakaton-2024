@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    height: 55px;
+}
+
+
+.active {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+
+#header-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+nav a:hover {
+    color: #0000006c;
+    font-weight: bold;
+}
+
+.contenedorPrin {
+    position: relative;
+    justify-content: center; 
+    height: 87.3vh;
+    margin-top: 10px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+   align-items: center;
+   align-content: center;
+   margin-bottom: 10px;
+}
+
+#p {
+    font-size: 34px;
+    background-color:beige;
+    width: 40vw;
+    height: 5vw;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+input{
+    width: 70vw;
+    height: 3vw; 
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 12px 15px; 
+    margin-top: 10px;
+}
+
+.grafica {
+    background-color: beige;
+    width: 70vw;
+    height: 30vw;
+    border-radius: 20px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grafica img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    max-height: 100%; /* Asegura que la imagen no exceda la altura del contenedor */
+}
